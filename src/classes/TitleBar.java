@@ -7,7 +7,7 @@ import javax.swing.JPanel;
 public class TitleBar extends JPanel {
     //constructor
     public TitleBar() {
-       this.setPreferredSize(new Dimension(400, 100));
+       this.setPreferredSize(new Dimension(400, 80));
        this.setBackground(Color.DARK_GRAY);
     }
 
