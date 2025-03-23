@@ -33,6 +33,11 @@ taskName = new JTextField("Your task here");
 taskName.setBorder(BorderFactory.createEmptyBorder());
 taskName.setBackground(Color.red);
 this.add(taskName, BorderLayout.CENTER);
+
+done = new JButton("Done");
+done.setPreferredSize(new Dimension(40, 20));
+done.setBorder(BorderFactory.createEmptyBorder());
+this.add(done, BorderLayout.EAST);
     }
 
 }
