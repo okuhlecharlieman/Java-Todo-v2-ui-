@@ -36,6 +36,7 @@ public class AppFrame extends JFrame {
         public void mouseClicked(MouseEvent e) {
           Task task = new Task();
           list.add(task);
+          list.updateNumbers();
          revalidate();
         }
       });

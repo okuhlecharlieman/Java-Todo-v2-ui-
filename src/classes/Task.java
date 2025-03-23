@@ -39,5 +39,9 @@ done.setPreferredSize(new Dimension(40, 20));
 done.setBorder(BorderFactory.createEmptyBorder());
 this.add(done, BorderLayout.EAST);
     }
+    public void changeIndex(int i) {
+        index.setText(i + ".");
+        this.revalidate();
+    }
 
 }
