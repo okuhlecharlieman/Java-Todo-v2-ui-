@@ -1,5 +1,7 @@
 package classes;
 
+import java.awt.BorderLayout;
+import java.awt.Color;
 import java.awt.Dimension;
 
 import javax.swing.JButton;
@@ -16,6 +18,14 @@ public class Task extends JPanel {
     //Constructor
     Task(){
         this.setPreferredSize(new Dimension(40,20));
+        this.setBackground(Color.LIGHT_GRAY);
+        this.setLayout(new BorderLayout());
+
+        checked = false;
+index = new JLabel("");
+index.setPreferredSize(new Dimension(20, 20));
+index.setHorizontalAlignment(JLabel.CENTER);
+this.add(index, BorderLayout.WEST);
     }
 
 }
