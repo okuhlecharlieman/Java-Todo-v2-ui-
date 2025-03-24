@@ -43,5 +43,11 @@ this.add(done, BorderLayout.EAST);
         index.setText(i + ".");
         this.revalidate();
     }
-
+public void changeState(){
+    this.setBackground(Color.GREEN);
+    taskName.setBackground(Color.GREEN);
+    checked = true;
+}
+public JButton getDoneBtn() {
+    return done;}
 }
