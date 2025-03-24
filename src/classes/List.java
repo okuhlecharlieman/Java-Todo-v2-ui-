@@ -24,5 +24,16 @@ public class List extends JPanel {
          }
         }
     }
+    public void removeCompletedTasks() {
+        Component[] listItems = this.getComponents();
+        for (Component c : listItems) {
+            if (c instanceof Task) {
+                Task task = (Task) c;
+                if (task.getState()) {
+                    this.remove(task);
+                }
+            }
+        }
+    }
 
 }

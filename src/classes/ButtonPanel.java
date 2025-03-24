@@ -22,7 +22,7 @@ this.setBackground(Color.LIGHT_GRAY);
         addBtn = new JButton("Add Task");
         addBtn.setBorder(border);
         addBtn.setPreferredSize(new Dimension(200, 50));
-        removeBtn = new JButton("Remove Task");
+        removeBtn = new JButton("Clear Completed");
         removeBtn.setBorder(border);
         removeBtn.setPreferredSize(new Dimension(200, 50));
         

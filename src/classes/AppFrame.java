@@ -47,5 +47,13 @@ public class AppFrame extends JFrame {
          revalidate();
         }
       });
+      clear.addMouseListener(new MouseAdapter() {
+        @Override
+        public void mouseClicked(MouseEvent e) {
+            list.removeCompletedTasks();
+            list.updateNumbers();
+            revalidate();
+        }
+    });
     }
 }

@@ -50,4 +50,8 @@ public void changeState(){
 }
 public JButton getDoneBtn() {
     return done;}
+    public boolean getState() {
+        return checked;  
+    }
+    
 }
