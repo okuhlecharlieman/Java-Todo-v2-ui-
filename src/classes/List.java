@@ -13,7 +13,7 @@ public class List extends JPanel {
     GridLayout layout = new GridLayout(10, 1);
     layout.setVgap(10);
          this.setPreferredSize(new Dimension(400, 500));
-        this.setBackground(Color.magenta);
+        this.setBackground(Color.WHITE);
         this.setLayout(layout);
     }
     public void updateNumbers() {

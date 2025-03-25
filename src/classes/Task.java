@@ -31,7 +31,7 @@ this.add(index, BorderLayout.WEST);
 
 taskName = new JTextField("Your task here");
 taskName.setBorder(BorderFactory.createEmptyBorder());
-taskName.setBackground(Color.red);
+taskName.setBackground(Color.gray);
 this.add(taskName, BorderLayout.CENTER);
 
 done = new JButton("Done");
