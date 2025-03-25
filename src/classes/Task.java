@@ -56,4 +56,13 @@ public JButton getDoneBtn() {
         return checked;  
     }
     
+     public String getTaskText() {
+        return taskName.getText();
+    }
+
+    
+    public void setTaskText(String text) {
+        taskName.setText(text);
+    }
+    
 }

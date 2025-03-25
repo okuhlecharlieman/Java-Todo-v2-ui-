@@ -35,6 +35,7 @@ public class AppFrame extends JFrame {
         @Override
         public void mouseClicked(MouseEvent e) {
           Task task = new Task();
+          task.setTaskText("");
           list.add(task);
           list.updateNumbers();
           task.getDoneBtn().addMouseListener(new MouseAdapter() {
@@ -55,5 +56,7 @@ public class AppFrame extends JFrame {
             revalidate();
         }
     });
+
+
     }
 }
