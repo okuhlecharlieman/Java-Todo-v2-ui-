@@ -29,9 +29,11 @@ index.setPreferredSize(new Dimension(20, 20));
 index.setHorizontalAlignment(JLabel.CENTER);
 this.add(index, BorderLayout.WEST);
 
-taskName = new JTextField("Your task here");
+taskName = new JTextField();
 taskName.setBorder(BorderFactory.createEmptyBorder());
-taskName.setBackground(Color.gray);
+taskName.setBackground(Color.LIGHT_GRAY);
+taskName.setCaretColor(Color.BLACK);  
+taskName.setForeground(Color.BLACK);  
 this.add(taskName, BorderLayout.CENTER);
 
 done = new JButton("Done");
